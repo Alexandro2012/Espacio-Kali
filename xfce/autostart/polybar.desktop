@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=$HOME/Espacio-Kali/launch.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Polybar Custom
+Comment=Launch custom polybar on XFCE start
