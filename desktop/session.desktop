@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Espacio-Kali
+Comment=Mi espacio personalizado en Kali Linux
+Exec=/home/TU_USUARIO/Espacio-Kali/.xsession
+Type=Application
