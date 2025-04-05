@@ -1,13 +1,16 @@
 #!/bin/bash
 
 # Fondo de pantalla
-feh --bg-scale $HOME/Espacio-Kali/wallpapers/wallpaper.png &
+feh --bg-scale "$HOME/Espacio-Kali/wallpapers/fondo-dark.png"
 
-# Iniciar Polybar
-$HOME/.config/polybar/launch.sh &
+# Inicia compositor (si quieres sombras, transparencias, etc.)
+picom &
 
-# Espera para que se estabilice
-sleep 1
+# Lanza polybar
+~/.config/polybar/launch.sh &
 
-# Inicia gestor de ventanas (usa openbox, o el que prefieras)
-exec openbox
+# Lanza rofi en modo dock si lo deseas (opcional)
+# rofi -show drun &
+
+# Ejecuta tu gestor de ventanas Openbox
+exec openbox-session
