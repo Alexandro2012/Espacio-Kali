@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Espacio Kali
+Comment=Entorno personalizado por Alexandro
+Exec=$HOME/Espacio-Kali/startxfce.sh
+TryExec=$HOME/Espacio-Kali/startxfce.sh
+Type=Application
+DesktopNames=EspacioKali
