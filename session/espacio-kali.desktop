@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Espacio Kali
+Comment=Mi entorno de trabajo personalizado
+Exec=/etc/X11/Xsession
+TryExec=/etc/X11/Xsession
+Type=Application
+DesktopNames=EspacioKali
