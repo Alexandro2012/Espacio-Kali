@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then
+    echo "Uso: target <IP>"
+    exit 1
+fi
+
+echo "$1" > ~/Espacio-Kali/scripts/target.txt
